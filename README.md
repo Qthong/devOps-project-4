@@ -1,4 +1,7 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](<LINK>)
+
+[![CircleCI](https://circleci.com/gh/Qthong/devOps-project-4/tree/master.svg?style=svg&circle-token=8d5bf0324a44ac534d66d2060bcac554acc2650f)](https://https://github.com/Qthong/devOps-project-4)
+
 
 ## Project Overview
 

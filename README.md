@@ -1,5 +1,3 @@
-[![CircleCI](https://circleci.com/<VCS>/<ORG_NAME>/<PROJECT_NAME>.svg?style=svg&circle-token=<YOUR_STATUS_API_TOKEN>)](<LINK>)
-
 [![CircleCI](https://circleci.com/gh/Qthong/devOps-project-4/tree/master.svg?style=svg&circle-token=8d5bf0324a44ac534d66d2060bcac554acc2650f)](https://https://github.com/Qthong/devOps-project-4)
 
 
@@ -47,7 +45,10 @@ source .devops/bin/activate
 
 ### Kubernetes Steps
 
-* Setup and Configure Docker locally
-* Setup and Configure Kubernetes locally
-* Create Flask app in Container
-* Run via kubectl
+* Setup and Configure Docker locally: ./run_docker.sh
+* Setup and Configure Kubernetes locally: ./run_kubernetes.sh
+* Create Flask app in Container: docker run -p 8000:80 thongnq2/dev-ops-project-4
+* Run via kubectl: 
+    kubectl run udacity --image=thongnq2/dev-ops-project-4
+    kubectl port-forward pod/udacity 8000:80 
+

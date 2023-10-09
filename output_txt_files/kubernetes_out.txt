@@ -1,3 +1,4 @@
+[cloudshell-user@ip-10-6-120-31 output_txt_files]$ kubectl logs udacity
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: Do not use the development server in a production environment.
